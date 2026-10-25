@@ -1,2 +1,1 @@
-# encine-one
-series y pelis
+kino-plugin.json
