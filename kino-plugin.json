@@ -1,0 +1,40 @@
+{
+  "id": "enmcine-plugin",
+  "name": "Mi Fuente",
+  "version": "0.1.0",
+  "apiVersion": 11,
+  "entry": "plugin.js",
+  "description": "Películas y series en latino. Requiere configurar la dirección de tu servidor en los ajustes del plugin.",
+  "author": "Rayoapp5",
+  "homepage": "https://github.com",
+  "hosts": [
+    "www.enmcine.uk"
+  ],
+  "streamHosts": "any",
+  "capabilities": [
+    "search",
+    "home",
+    "browse",
+    "episodes",
+    "resolve",
+    "download",
+    "externalResolve"
+  ],
+  "categories": [
+    "movies",
+    "series",
+    "anime"
+  ],
+  "discoverable": true,
+  "settings": [
+    {
+      "key": "server",
+      "label": "Dirección del Servidor",
+      "type": "url",
+      "required": true,
+      "hint": "https://tu-servidor-personal.com"
+    }
+  ],
+  "color": "#1F8A70",
+  "icon": "icon.png"
+}
